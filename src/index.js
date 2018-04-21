@@ -1,5 +1,6 @@
 import http from 'http';
 import express from 'express';
+import path from 'path';
 import cors from 'cors';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
@@ -31,6 +32,8 @@ initializeDb( db => {
 
 	// api router
 	app.use('/api', api({ config, db }));
+
+    app.use(express.static(path.join(__dirname, 'public')));
 
 	app.server.listen(process.env.PORT || config.port, () => {
 		console.log(`Started on port ${app.server.address().port}`);
