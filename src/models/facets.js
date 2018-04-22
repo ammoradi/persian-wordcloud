@@ -11,7 +11,7 @@ require.extensions['.txt'] = function (module, filename) {
 };
 
 export function main() {
-    let data = require("../assets/97.txt");
+    let data = require("../assets/89.txt");
     let cleaned = cleaner(data);
     let words = tokenizer(cleaned);
     let counted = counter(words);
