@@ -1,8 +1,8 @@
 import fs from 'fs';
-import cleaner from '../nlp/cleaner';
-import tokenizer from '../nlp/tokenizer';
+import cleaner from '../microservice/nlp/cleaner';
+import tokenizer from '../microservice/nlp/tokenizer';
 import counter from '../lib/wordCounter';
-import comm from './../lib/commonFinder'
+import comm from '../lib/commonFinder'
 
 require.extensions['.txt'] = function (module, filename) {
     module.exports = fs.readFileSync(filename, 'utf8');
