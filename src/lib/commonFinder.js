@@ -1,3 +1,9 @@
+/***
+ * @param array1
+ * @param array2
+ * @return res = array of common items of array1 and array2
+ */
+
 export default function commonFinder(array1, array2) {
     let res = []
     for( let i=0; i < array1.length; i++) {
@@ -13,6 +19,5 @@ export default function commonFinder(array1, array2) {
             res.push(word1)
         }
     }
-    console.log('res',res)
     return res
 }
