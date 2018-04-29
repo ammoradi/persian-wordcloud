@@ -2,14 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac6bf78-0c38-404c-915c-d6f6fc5051e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lib/commonFinder.js" afterPath="$PROJECT_DIR$/src/lib/commonFinder.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/d3.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/d3Cloud.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/jsonToArray.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/objSort.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/wordCounter.js" afterPath="$PROJECT_DIR$/src/lib/wordCounter.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/wordcloud.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/base/_body-element.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/base/_fonts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/base/_normalize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/base/_selection-colors.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/base/_vars.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/fonts/Montserrat-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/layouts/_grid.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/main.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_about.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_contact.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_device-notification.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_header.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_hire.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_intro.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_outer-nav.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_section.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_side-nav.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/css/modules/_work.sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/about-history.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/about-philosophy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/about-visual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/about-winners.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/contact-visual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/introduction-visual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/work-alex-nowak.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/work-metiew-smith.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/img/work-victory.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/js/functions-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/js/functions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/js/vendor/hammer-2.0.8.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/assets/js/vendor/jquery-2.2.4.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/d3.layout.cloud.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/d3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.html" afterPath="$PROJECT_DIR$/src/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/public/wordcloud.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,38 +69,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordCounter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/wordCounter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commonFinder.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/commonFinder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/lib/d3.js" />
         <option value="$PROJECT_DIR$/src/public/doc.html" />
         <option value="$PROJECT_DIR$/src/models/facets.js" />
-        <option value="$PROJECT_DIR$/src/public/index.html" />
         <option value="$PROJECT_DIR$/src/public/index.js" />
         <option value="$PROJECT_DIR$/src/api/speech89.js" />
         <option value="$PROJECT_DIR$/src/api/speech97.js" />
@@ -133,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/models/speech97.js" />
         <option value="$PROJECT_DIR$/src/lib/wordCounter.js" />
         <option value="$PROJECT_DIR$/src/lib/commonFinder.js" />
+        <option value="$PROJECT_DIR$/src/public/index.html" />
       </list>
     </option>
   </component>
@@ -181,12 +197,6 @@
               <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,12 +257,12 @@
       <workItem from="1524299477778" duration="44000" />
       <workItem from="1524374375412" duration="6642000" />
       <workItem from="1524665617927" duration="47000" />
-      <workItem from="1524953934015" duration="6631000" />
+      <workItem from="1524953934015" duration="6967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27573000" />
+    <option name="totallyTimeSpent" value="27909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="243" y="213" width="1360" height="738" extended-state="6" />
@@ -473,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/doc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nlp/cleaner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -524,14 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -664,10 +659,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/doc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/commonFinder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding />
         </state>
       </provider>
