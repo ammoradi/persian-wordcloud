@@ -12,11 +12,9 @@ export function main() {
     let cleaned = cleaner(data);
     let words = tokenizer(cleaned);
     let counted = counter(words);
-    // console.log(counted);
     return counted;
 }
 
-// our example model is just an Array
 const speech97 = main();
 export default speech97;
 
