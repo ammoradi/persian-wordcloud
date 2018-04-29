@@ -7,7 +7,7 @@ import commons from './commons';
 export default ({ config, db }) => {
 	let api = Router();
 
-	// mount the speech89 resource
+	// mount the resources
 	api.use('/speech89', speech89({ config, db }));
 	api.use('/speech97', speech97({ config, db }));
 	api.use('/commons', commons({ config, db }));
