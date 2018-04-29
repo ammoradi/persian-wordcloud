@@ -1,5 +1,5 @@
 import resource from 'resource-router-middleware';
-import facets from '../models/facets';
+import speech97 from '../models/speech97';
 
 export default ({ config, db }) => resource({
 
@@ -10,20 +10,20 @@ export default ({ config, db }) => resource({
 	 *  Errors terminate the request, success sets `req[id] = data`.
 	 */
 	load(req, id, callback) {
-		let facet = facets.find( facet => facet.id===id ),
+		let facet = speech97.find( facet => facet.id===id ),
 			err = facet ? null : 'Not found';
 		callback(err, facet);
 	},
 
 	/** GET / - List all entities */
 	index({ params }, res) {
-		res.json(facets);
+		res.json(speech97);
 	},
 
 	/** POST / - Create a new entity */
 	create({ body }, res) {
-		body.id = facets.length.toString(36);
-		facets.push(body);
+		body.id = speech97.length.toString(36);
+		speech97.push(body);
 		res.json(body);
 	},
 
@@ -44,7 +44,7 @@ export default ({ config, db }) => resource({
 
 	/** DELETE /:id - Delete a given entity */
 	delete({ facet }, res) {
-		facets.splice(facets.indexOf(facet), 1);
+		speech97.splice(speech97.indexOf(facet), 1);
 		res.sendStatus(204);
 	}
 });

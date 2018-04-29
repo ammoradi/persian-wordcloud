@@ -2,9 +2,6 @@ import fs from 'fs';
 import cleaner from '../nlp/cleaner';
 import tokenizer from '../nlp/tokenizer';
 import counter from '../lib/wordCounter';
-import j2a from '../lib/jsonToArray';
-import Canvas from 'canvas'
-import cloud from './../lib/d3Cloud'
 import comm from './../lib/commonFinder'
 
 require.extensions['.txt'] = function (module, filename) {
@@ -22,10 +19,8 @@ export function main() {
     let counted2 = counter(words2);
     let commons =  comm(counted1, counted2)
     return commons;
-    // return nwords;
 }
 
-// our example model is just an Array
 const common = main();
 export default common;
 
