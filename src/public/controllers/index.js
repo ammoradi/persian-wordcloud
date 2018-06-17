@@ -1,7 +1,7 @@
 $(document).ready(() => {
     let color = d3.scale.linear()
         .domain([0,1,2,3,4,5,6,10,15,20,100])
-        .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
+        .range(["#ff0000", "#4300ff", "#00c124", "#b400b9", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
 
     function draw(words) {
         d3.select("body").append("svg")
@@ -27,17 +27,52 @@ $(document).ready(() => {
         layout.words(array).start();
     }
 
-    let xhr = new XMLHttpRequest();
+    // let xhr = new XMLHttpRequest();
+    //
+    // let xhrPromise = new Promise((resolve, reject) => {
+    //     xhr.onreadystatechange = function() {
+    //         if (xhr.readyState === XMLHttpRequest.DONE) {
+    //             resolve(xhr.responseText);
+    //         }
+    //     }
+    //     xhr.open('GET', 'http://localhost:8080/api/speech89', true);
+    //     xhr.send(null);
+    // }).then(result => {
+    //     wordCloud(JSON.parse(result))
+    // })
 
-    let xhrPromise = new Promise((resolve, reject) => {
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == XMLHttpRequest.DONE) {
-                resolve(xhr.responseText);
-            }
+    var requests = new Array();
+
+    function ProcessUrls()
+    {
+        requests = new Array();
+        var urls = new Array('http://localhost:8080/api/speech89','http://localhost:8080/api/speech97','http://localhost:8080/api/commons');
+
+        for(i=0;i<urls.length;i++)
+        {
+            requests.push(new ProcessUrl(urls[i]));
         }
-        xhr.open('GET', 'http://localhost:8080/api/speech89', true);
-        xhr.send(null);
-    }).then(result => {
-        wordCloud(JSON.parse(result))
-    })
+
+    }
+
+    function ProcessUrl(url)
+    {
+
+        var http = new XMLHttpRequest();
+
+        http.open("GET", url, true);
+
+        http.onreadystatechange = function()
+        {
+            if (http.readyState == 4 && http.status == 200)
+            {
+                wordCloud(JSON.parse(http.responseText));
+            }
+        };
+
+        http.send(null);
+
+    }
+
+    ProcessUrls();
 })
